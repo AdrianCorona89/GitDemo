@@ -1,1 +1,6 @@
 Hola!
+
+@Test
+public void postJira() {
+	System.out.println("Posting to Jira");
+}
