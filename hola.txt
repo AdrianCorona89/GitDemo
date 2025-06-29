@@ -1,4 +1,5 @@
 Hola!
+// This is supposed to be development branch!
 
 @Test
 public void postJira() {
@@ -6,4 +7,13 @@ public void postJira() {
 
 	// Dev 2
 	System.out.println("Posting to Jira again");
+}
+
+public void whatBranchIsThis() {
+	System.out.println("Development branch");
+}
+
+@Test
+public void deleteSomething() {
+	System.out.println("Deleting something");
 }
